@@ -47,5 +47,10 @@
 /* removing native horizontal tabs */
 #TabsToolbar{visibility: collapse !important;}
 
+/* the sidebery ext overlaps since it's inside the sidebar instead giving it a defined width (making it fixed :( ) ill give some left padding to side splitter width 2px + 1px  */
+#sidebar-splitter{padding-left: 3px !important;}
+
+
+
 
 
