@@ -1,6 +1,9 @@
 # Firefox + Sidebery Setup
 
 ---
+## Pre-requisites
+
+- Make sure to turn on Vertical Tabs and disable menu bar.
 
 ## Apply UserChrome.css
 
