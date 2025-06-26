@@ -1,0 +1,22 @@
+#root {
+	--tabs-lvl-opacity: 0.16;
+  --tabs-height: 36px !important;
+  --tabs-title-padding: 8px;
+  --tabs-font-size: .8rem;
+  --tabs-title-lines: 1;
+}
+
+.Tab{
+	padding-top: 1px;
+}
+.Tab .t-box {
+  align-items: center;
+  max-height: calc(var(--tabs-height) - var(--tabs-title-padding));
+  overflow: hidden;
+}
+
+.Tab .title {
+  font-size: var(--tabs-font-size);
+}
+
+#root.root {--bookmarks-bookmark-font: 0.8rem sans-serif;}
